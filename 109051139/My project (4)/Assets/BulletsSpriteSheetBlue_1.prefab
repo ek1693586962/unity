@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2231154892374047327}
   - component: {fileID: -8097703992914203084}
   - component: {fileID: 4825644562427490238}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: BulletsSpriteSheetBlue_1
   m_TagString: playershot
   m_Icon: {fileID: 0}

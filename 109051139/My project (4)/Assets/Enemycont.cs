@@ -35,7 +35,7 @@ public class Enemycont : MonoBehaviour
         }
             Vector3 ShotAngle = new Vector3(0, 0, Random.Range(0, 360));
         Vector3 ShotPos = transform.position + new Vector3(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f), 0);
-        if (counter % 10 == 0)
+        if (counter % 6 == 0)
         {
             GameObject ShotObj = Instantiate(Shot, transform.position, new Quaternion(0, 0, 0, 0));
             ShotObj.GetComponent<Enemyshot01>().InitAngle = Quaternion.Euler(ShotAngle);
